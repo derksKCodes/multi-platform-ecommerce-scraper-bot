@@ -1,0 +1,54 @@
+Project Structure Implementation
+New-Item -ItemType Directory -Force -Path ., `
+.\config, .\data, `
+.\data\screenshots, .\src, `
+.\tests
+
+New-Item -ItemType File -Force -Path `
+.\README.md, `
+.\requirements.txt, `
+.\Dockerfile, `
+.\config\settings.yaml, `
+.\config\selectors.yaml, `
+.\data\input_urls.csv, `
+.\src\main.py, `
+.\src\scraper_factory.py, `
+.\src\base_scraper.py, `
+.\src\amazon_scraper.py, `
+.\src\aliexpress_scraper.py, `
+.\src\ebay_scraper.py, `
+.\src\etsy_scraper.py, `
+.\src\jumia_scraper.py, `
+.\src\kilimall_scraper.py, `
+.\src\jiji_scraper.py, `
+.\src\product_schema.py, `
+.\src\output_writer.py, `
+.\src\utils.py, `
+.\tests\test_amazon.py
+
+./
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── config/
+│   ├── settings.yaml
+│   ├── selectors.yaml
+├── data/
+│   ├── input_urls.csv
+│   ├── screenshots/
+├── src/
+│   ├── main.py
+│   ├── scraper_factory.py
+│   ├── base_scraper.py
+│   ├── amazon_scraper.py
+│   ├── aliexpress_scraper.py
+│   ├── ebay_scraper.py
+│   ├── etsy_scraper.py
+│   ├── jumia_scraper.py
+│   ├── kilimall_scraper.py
+│   ├── jiji_scraper.py
+│   ├── product_schema.py
+│   ├── output_writer.py
+│   ├── utils.py
+├── tests/
+│   ├── test_amazon.py
