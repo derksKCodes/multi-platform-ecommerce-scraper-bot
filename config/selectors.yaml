@@ -1,0 +1,25 @@
+amazon:
+  product_name: ["#productTitle", "h1.a-size-large"]
+  price: [".a-price-whole", ".a-offscreen"]
+  discount_price: [".a-text-price", ".a-color-secondary"]
+  sku: []
+  brand: ["#bylineInfo", ".a-link-normal.contributorNameID"]
+  category: [".a-breadcrumb li:not(.a-breadcrumb-divider) a"]
+  image: ["#landingImage", ".a-dynamic-image"]
+  stock_status: ["#availability", ".a-size-medium.a-color-success"]
+  rating: [".a-icon-alt", "[data-hook='rating-out-of-text']"]
+  reviews: ["#acrCustomerReviewText", "[data-hook='total-review-count']"]
+  seller: ["#merchant-info", ".a-link-normal.contributorNameID"]
+
+aliexpress:
+  product_name: [".product-title-text"]
+  price: [".product-price-value"]
+  discount_price: [".product-price-original"]
+  # ... other selectors for each platform
+
+ebay:
+  product_name: [".x-item-title__mainTitle"]
+  price: [".x-price-primary"]
+  # ... other selectors
+
+# Similar sections for etsy, jumia, kilimall, jiji

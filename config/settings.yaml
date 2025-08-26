@@ -1,0 +1,43 @@
+scraper:
+  headless: false
+  timeout: 30
+  max_retries: 3
+  delay_between_requests: 1.5
+  user_agents:
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+    - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+
+proxies:
+  enabled: false
+  list: []
+  rotation_interval: 10
+
+output:
+  json_path: "data/output.json"
+  csv_path: "data/output.csv"
+  excel_path: "data/output.xlsx"
+  screenshots_dir: "data/screenshots"
+
+platforms:
+  amazon:
+    base_url: "https://www.amazon.com"
+    requires_js: true
+  aliexpress:
+    base_url: "https://www.aliexpress.com"
+    requires_js: true
+  ebay:
+    base_url: "https://www.ebay.com"
+    requires_js: true
+  etsy:
+    base_url: "https://www.etsy.com"
+    requires_js: true
+  jumia:
+    base_url: "https://www.jumia.com.ng"
+    requires_js: true
+  kilimall:
+    base_url: "https://www.kilimall.co.ke"
+    requires_js: true
+  jiji:
+    base_url: "https://jiji.ng"
+    requires_js: true
