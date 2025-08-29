@@ -6,10 +6,10 @@ Main orchestrator for multi-platform e-commerce scraper
 import argparse
 import logging
 from typing import List
-from .scraper_factory import ScraperFactory
-from .output_writer import OutputWriter
-from .utils import setup_logging, read_urls_from_file, retry_on_failure
-from .product_schema import ScrapedResult
+from scraper_factory import ScraperFactory
+from output_writer import OutputWriter
+from utils import setup_logging, read_urls_from_file, retry_on_failure
+from product_schema import ScrapedResult
 import yaml
 import time
 
