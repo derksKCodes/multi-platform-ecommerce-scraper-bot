@@ -1,11 +1,11 @@
-from .base_scraper import BaseScraper
-from .product_schema import ProductData, ScrapedResult, StockStatus, DeliveryOption, CheckoutScenario
+from base_scraper import BaseScraper
+from product_schema import ProductData, ScrapedResult, StockStatus, DeliveryOption, CheckoutScenario
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import logging
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 import re
 
 class AmazonScraper(BaseScraper):
@@ -276,3 +276,25 @@ class AmazonScraper(BaseScraper):
             self.logger.error(f"Error extracting delivery options: {e}")
         
         return options
+    
+    def simulate_checkout(self, product_data: ProductData, quantity: int = 1) -> Dict[str, Any]:
+        """
+        Implements the abstract method required by BaseScraper.
+        Wraps the existing checkout scenario logic.
+        """
+        try:
+            # Use the same flow as _checkout_scenario
+            scenario = self._checkout_scenario(quantity=quantity)
+            return {
+                "scenario_name": scenario.scenario_name,
+                "delivery_options": [opt.__dict__ for opt in scenario.delivery_options],
+                "screenshot_path": scenario.screenshot_path,
+                "error_message": scenario.error_message,
+            }
+        except Exception as e:
+            self.logger.error(f"simulate_checkout failed: {e}")
+            return {
+                "scenario_name": f"{quantity}_items",
+                "delivery_options": [],
+                "error_message": str(e),
+            }
