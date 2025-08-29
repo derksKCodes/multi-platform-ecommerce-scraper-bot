@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from typing import List, Dict, Any
 from pathlib import Path
-from .product_schema import ScrapedResult
+from product_schema import ScrapedResult
 import logging
 
 class OutputWriter:
