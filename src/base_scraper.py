@@ -11,7 +11,7 @@ import yaml
 import logging
 from typing import Optional, List, Dict, Any
 from fake_useragent import UserAgent
-from .product_schema import ProductData, ScrapedResult, StockStatus
+from product_schema import ProductData, ScrapedResult, StockStatus
 
 class BaseScraper(ABC):
     def __init__(self, headless: bool = True, timeout: int = 30):
@@ -29,20 +29,39 @@ class BaseScraper(ABC):
         except FileNotFoundError:
             self.logger.warning("Selectors config file not found")
             return {}
-    
     def setup_driver(self):
         options = ChromeOptions()
         if self.headless:
-            options.add_argument('--headless')
-        options.add_argument('--no-sandbox')
-        options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--disable-blink-features=AutomationControlled')
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        options.add_experimental_option('useAutomationExtension', False)
-        options.add_argument(f'--user-agent={self.ua.random}')
-        
+            options.add_argument("--headless=new")  # modern flag
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument(f"--user-agent={self.ua.random}")
+
+        # If you want to suppress "automation" banners:
+        options.add_argument("--disable-infobars")
+
+        # create driver
         self.driver = Chrome(options=options)
-        self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+        # stealth JS trick
+        self.driver.execute_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
+
+    # def setup_driver(self):
+    #     options = ChromeOptions()
+    #     if self.headless:
+    #         options.add_argument('--headless')
+    #     options.add_argument('--no-sandbox')
+    #     options.add_argument('--disable-dev-shm-usage')
+    #     options.add_argument('--disable-blink-features=AutomationControlled')
+    #     options.add_experimental_option("prefs", {"profile.default_content_setting_values.cookies": 2})
+    #     options.add_experimental_option('useAutomationExtension', False)
+    #     options.add_argument(f'--user-agent={self.ua.random}')
+        
+    #     self.driver = Chrome(options=options)
+    #     self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     
     def get_random_delay(self, min_delay: float = 1.0, max_delay: float = 3.0) -> float:
         return random.uniform(min_delay, max_delay)
@@ -99,9 +118,16 @@ class BaseScraper(ABC):
     def simulate_checkout(self, product_data: ProductData, quantity: int = 1) -> Dict[str, Any]:
         pass
     
+    # def close(self):
+    #     if self.driver:
+    #         self.driver.quit()
     def close(self):
         if self.driver:
-            self.driver.quit()
+            try:
+                self.driver.quit()
+            except Exception:
+                pass
+
     
     def __enter__(self):
         self.setup_driver()
