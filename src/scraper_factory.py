@@ -1,11 +1,11 @@
-from .amazon_scraper import AmazonScraper
-from .aliexpress_scraper import AliExpressScraper
-from .ebay_scraper import EbayScraper
-from .etsy_scraper import EtsyScraper
-from .jumia_scraper import JumiaScraper
-from .kilimall_scraper import KilimallScraper
-from .jiji_scraper import JijiScraper
-from .base_scraper import BaseScraper
+from amazon_scraper import AmazonScraper
+# from aliexpress_scraper import AliExpressScraper
+# from ebay_scraper import EbayScraper
+# from etsy_scraper import EtsyScraper
+# from jumia_scraper import JumiaScraper
+# from kilimall_scraper import KilimallScraper
+# from jiji_scraper import JijiScraper
+from base_scraper import BaseScraper
 from typing import Optional
 import re
 
@@ -19,12 +19,12 @@ class ScraperFactory:
         
         scraper_map = {
             'amazon': AmazonScraper,
-            'aliexpress': AliExpressScraper,
-            'ebay': EbayScraper,
-            'etsy': EtsyScraper,
-            'jumia': JumiaScraper,
-            'kilimall': KilimallScraper,
-            'jiji': JijiScraper
+            # 'aliexpress': AliExpressScraper,
+            # 'ebay': EbayScraper,
+            # 'etsy': EtsyScraper,
+            # 'jumia': JumiaScraper,
+            # 'kilimall': KilimallScraper,
+            # 'jiji': JijiScraper
         }
         
         for platform, scraper_class in scraper_map.items():
