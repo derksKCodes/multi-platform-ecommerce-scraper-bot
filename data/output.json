@@ -1,0 +1,130 @@
+[
+  {
+    "store": "amazon.com",
+    "url": "https://www.amazon.com/s?k=gaming",
+    "product": {
+      "name": "Unknown",
+      "price": "1,699",
+      "discount_price": "$1,359.99",
+      "sku": null,
+      "brand": null,
+      "category": null,
+      "product_url": "https://www.amazon.com/HyperX-Cloud-III-Ultra-Clear-USB/dp/B0C3BSZ56D/ref=sr_1_47?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9GWdH9_VD_2yT6Cu4tQA2-SwUzzptuAZ7l1Dy5Yf4F0qrmi_JU_kDZ-o5Ing-bzop7c7LjdBVIwvXO1H-IH6KOPmuyq2c5aA4qwi5mKnWmAFaNuHfWWC6_D2zyzm2xNQUiNTlWgulcv1kcagPdeCjt__XaxUCizu3yR2d1q8gkCfXRupvHLplX1MuuFIA700V6UQu7CgcpWJM0tw9nmcOblrbC6laOIJFa_jrml2POIVGgKgwsnTbu5mj22tNe0_sMr9P7edBmW_dLrUNkMLbps.zdsWBTX440htXWnw2jnPRJhdN35a2SWyl7jgtboeUyI&dib_tag=se&keywords=gaming&qid=1756455600&sr=8-47&th=1",
+      "image_urls": [],
+      "stock_status": "Out of Stock",
+      "rating": "4.4",
+      "reviews": null,
+      "seller": "",
+      "shipping_info": null
+    },
+    "scenarios": {
+      "below_threshold": {
+        "scenario_name": "1_item",
+        "delivery_options": [],
+        "screenshot_path": "data/screenshots/amazon_1_items_1756455786.png",
+        "timestamp": "2025-08-29 11:23:06.384050"
+      },
+      "above_threshold": {
+        "scenario_name": "5_items",
+        "delivery_options": [],
+        "screenshot_path": "data/screenshots/amazon_5_items_1756455872.png",
+        "timestamp": "2025-08-29 11:24:33.363552"
+      }
+    },
+    "timestamp": "2025-08-29 11:24:33.363552",
+    "success": true,
+    "error_message": null
+  },
+  {
+    "store": "unknown",
+    "url": "https://www.aliexpress.com/item/1005002956352981.html",
+    "product": {
+      "name": "",
+      "price": "",
+      "discount_price": null,
+      "sku": null,
+      "brand": null,
+      "category": null,
+      "product_url": "https://www.aliexpress.com/item/1005002956352981.html",
+      "image_urls": [],
+      "stock_status": "Out of Stock",
+      "rating": null,
+      "reviews": null,
+      "seller": null,
+      "shipping_info": null
+    },
+    "scenarios": {},
+    "timestamp": "2025-08-29 11:24:35.487030",
+    "success": false,
+    "error_message": "Unsupported platform"
+  },
+  {
+    "store": "unknown",
+    "url": "https://www.ebay.com/itm/284003579041",
+    "product": {
+      "name": "",
+      "price": "",
+      "discount_price": null,
+      "sku": null,
+      "brand": null,
+      "category": null,
+      "product_url": "https://www.ebay.com/itm/284003579041",
+      "image_urls": [],
+      "stock_status": "Out of Stock",
+      "rating": null,
+      "reviews": null,
+      "seller": null,
+      "shipping_info": null
+    },
+    "scenarios": {},
+    "timestamp": "2025-08-29 11:24:36.988025",
+    "success": false,
+    "error_message": "Unsupported platform"
+  },
+  {
+    "store": "unknown",
+    "url": "https://www.etsy.com/listing/123456789/example-product",
+    "product": {
+      "name": "",
+      "price": "",
+      "discount_price": null,
+      "sku": null,
+      "brand": null,
+      "category": null,
+      "product_url": "https://www.etsy.com/listing/123456789/example-product",
+      "image_urls": [],
+      "stock_status": "Out of Stock",
+      "rating": null,
+      "reviews": null,
+      "seller": null,
+      "shipping_info": null
+    },
+    "scenarios": {},
+    "timestamp": "2025-08-29 11:24:38.488394",
+    "success": false,
+    "error_message": "Unsupported platform"
+  },
+  {
+    "store": "unknown",
+    "url": "https://www.jumia.com.ng/samsung-galaxy-a54-6.4-128gb-awesome-black-187473748.html",
+    "product": {
+      "name": "",
+      "price": "",
+      "discount_price": null,
+      "sku": null,
+      "brand": null,
+      "category": null,
+      "product_url": "https://www.jumia.com.ng/samsung-galaxy-a54-6.4-128gb-awesome-black-187473748.html",
+      "image_urls": [],
+      "stock_status": "Out of Stock",
+      "rating": null,
+      "reviews": null,
+      "seller": null,
+      "shipping_info": null
+    },
+    "scenarios": {},
+    "timestamp": "2025-08-29 11:24:39.989609",
+    "success": false,
+    "error_message": "Unsupported platform"
+  }
+]

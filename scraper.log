@@ -1,0 +1,122 @@
+2025-08-26 13:27:05,217 - root - INFO - Starting scraping of 1 URLs
+2025-08-26 13:27:05,218 - root - INFO - Scraping URL 1/1: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-26 13:27:18,112 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-26 13:30:39,146 - base_scraper - ERROR - Error in checkout scenario: Message: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Stacktrace:
+	GetHandleVerifier [0x0xe4ffc3+65331]
+	GetHandleVerifier [0x0xe50004+65396]
+	(No symbol) [0x0xc43dc0]
+	(No symbol) [0x0xc8db4b]
+	(No symbol) [0x0xc82645]
+	(No symbol) [0x0xcb14dc]
+	(No symbol) [0x0xc820d4]
+	(No symbol) [0x0xcb1754]
+	(No symbol) [0x0xcd2bcb]
+	(No symbol) [0x0xcb12d6]
+	(No symbol) [0x0xc80910]
+	(No symbol) [0x0xc81784]
+	GetHandleVerifier [0x0x10938b3+2439203]
+	GetHandleVerifier [0x0x108eae2+2419282]
+	GetHandleVerifier [0x0xe7712a+225434]
+	GetHandleVerifier [0x0xe66e08+159096]
+	GetHandleVerifier [0x0xe6dd5d+187597]
+	GetHandleVerifier [0x0xe57ad8+96840]
+	GetHandleVerifier [0x0xe57c62+97234]
+	GetHandleVerifier [0x0xe4277a+9962]
+	BaseThreadInitThunk [0x0x760f7ba9+25]
+	RtlInitializeExceptionChain [0x0x772fc3ab+107]
+	RtlClearBits [0x0x772fc32f+191]
+
+2025-08-26 13:30:39,153 - root - INFO - Successfully scraped: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-26 13:30:40,939 - root - INFO - JSON output written to data/output.json
+2025-08-26 13:30:40,983 - root - INFO - CSV output written to data/output.csv
+2025-08-26 13:30:43,011 - root - INFO - Excel output written to data/output.xlsx
+2025-08-26 13:30:43,016 - root - INFO - Scraping completed. Successful: 1/1
+2025-08-26 14:21:29,513 - root - INFO - Starting scraping of 1 URLs
+2025-08-26 14:21:29,513 - root - INFO - Scraping URL 1/1: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-26 14:21:44,553 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-26 14:25:08,553 - root - INFO - Successfully scraped: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-26 14:25:09,636 - root - INFO - JSON output written to data/output.json
+2025-08-26 14:25:09,671 - root - INFO - CSV output written to data/output.csv
+2025-08-26 14:25:11,200 - root - INFO - Excel output written to data/output.xlsx
+2025-08-26 14:25:11,201 - root - INFO - Scraping completed. Successful: 1/1
+2025-08-26 14:26:44,536 - root - INFO - Starting scraping of 1 URLs
+2025-08-26 14:26:44,537 - root - INFO - Scraping URL 1/1: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-26 14:27:08,145 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-26 14:28:56,731 - root - ERROR - Error scraping Amazon product: 'AmazonScraper' object has no attribute '_simulate_checkout_scenarios'
+2025-08-26 14:28:56,732 - root - INFO - Successfully scraped: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-26 14:28:57,643 - root - INFO - JSON output written to data/output.json
+2025-08-26 14:28:57,653 - root - INFO - CSV output written to data/output.csv
+2025-08-26 14:28:58,452 - root - INFO - Excel output written to data/output.xlsx
+2025-08-26 14:28:58,453 - root - INFO - Scraping completed. Successful: 0/1
+2025-08-29 11:05:51,886 - root - INFO - Starting scraping of 5 URLs
+2025-08-29 11:05:51,886 - root - INFO - Scraping URL 1/5: https://www.amazon.com/dp/B08N5WRWNW
+2025-08-29 11:06:03,506 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-29 11:06:57,305 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EA47EA2750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3848304c0d794450be86642c0cde1bdb/element
+2025-08-29 11:08:19,527 - root - INFO - Starting scraping of 1 URLs
+2025-08-29 11:08:19,528 - root - INFO - Scraping URL 1/1: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-29 11:08:31,177 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-29 11:10:04,217 - root - ERROR - Error scraping Amazon product: 'AmazonScraper' object has no attribute '_simulate_checkout_scenarios'
+2025-08-29 11:10:04,218 - root - INFO - Successfully scraped: https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=c7214b29-fece-4a0a-863d-270466dbf593&pd_rd_w=B2nLb&pd_rd_wg=ok2Mf&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=05Q0059QWG13ZKDZRMQR&ref=pd_hp_d_atf_unk
+2025-08-29 11:10:04,801 - root - INFO - JSON output written to data/output.json
+2025-08-29 11:10:04,830 - root - INFO - CSV output written to data/output.csv
+2025-08-29 11:10:05,484 - root - INFO - Excel output written to data/output.xlsx
+2025-08-29 11:10:05,484 - root - INFO - Scraping completed. Successful: 0/1
+2025-08-29 11:16:35,379 - root - INFO - Starting scraping of 5 URLs
+2025-08-29 11:16:35,380 - root - INFO - Scraping URL 1/5: https://www.amazon.com/s?k=gaming
+2025-08-29 11:16:47,683 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-29 11:18:58,377 - root - ERROR - Error scraping Amazon product: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.139)
+Stacktrace:
+	GetHandleVerifier [0x0xbaa8a3+63283]
+	GetHandleVerifier [0x0xbaa8e4+63348]
+	(No symbol) [0x0x9e3e43]
+	(No symbol) [0x0x9c2c49]
+	(No symbol) [0x0xa57b0e]
+	(No symbol) [0x0xa71ff9]
+	(No symbol) [0x0xa51216]
+	(No symbol) [0x0xa20855]
+	(No symbol) [0x0xa216f4]
+	GetHandleVerifier [0x0xe1bb43+2623955]
+	GetHandleVerifier [0x0xe16daa+2604090]
+	GetHandleVerifier [0x0xbd069a+218410]
+	GetHandleVerifier [0x0xbc0ed8+154984]
+	GetHandleVerifier [0x0xbc742d+180925]
+	GetHandleVerifier [0x0xbb22b8+94536]
+	GetHandleVerifier [0x0xbb2442+94930]
+	GetHandleVerifier [0x0xb9d5ea+9338]
+	BaseThreadInitThunk [0x0x76277ba9+25]
+	RtlInitializeExceptionChain [0x0x771dc3ab+107]
+	RtlClearBits [0x0x771dc32f+191]
+
+2025-08-29 11:18:58,378 - root - INFO - Successfully scraped: https://www.amazon.com/s?k=gaming
+2025-08-29 11:19:00,612 - root - INFO - Scraping URL 2/5: https://www.aliexpress.com/item/1005002956352981.html
+2025-08-29 11:19:00,612 - root - WARNING - No scraper found for URL: https://www.aliexpress.com/item/1005002956352981.html
+2025-08-29 11:19:02,113 - root - INFO - Scraping URL 3/5: https://www.ebay.com/itm/284003579041
+2025-08-29 11:19:02,114 - root - WARNING - No scraper found for URL: https://www.ebay.com/itm/284003579041
+2025-08-29 11:19:03,615 - root - INFO - Scraping URL 4/5: https://www.etsy.com/listing/123456789/example-product
+2025-08-29 11:19:03,615 - root - WARNING - No scraper found for URL: https://www.etsy.com/listing/123456789/example-product
+2025-08-29 11:19:05,116 - root - INFO - Scraping URL 5/5: https://www.jumia.com.ng/samsung-galaxy-a54-6.4-128gb-awesome-black-187473748.html
+2025-08-29 11:19:05,116 - root - WARNING - No scraper found for URL: https://www.jumia.com.ng/samsung-galaxy-a54-6.4-128gb-awesome-black-187473748.html
+2025-08-29 11:19:05,116 - root - INFO - JSON output written to data/output.json
+2025-08-29 11:19:05,141 - root - INFO - CSV output written to data/output.csv
+2025-08-29 11:19:05,835 - root - INFO - Excel output written to data/output.xlsx
+2025-08-29 11:19:05,836 - root - INFO - Scraping completed. Successful: 0/5
+2025-08-29 11:19:35,658 - root - INFO - Starting scraping of 5 URLs
+2025-08-29 11:19:35,658 - root - INFO - Scraping URL 1/5: https://www.amazon.com/s?k=gaming
+2025-08-29 11:19:54,465 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\jacks\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-08-29 11:24:33,363 - root - INFO - Successfully scraped: https://www.amazon.com/s?k=gaming
+2025-08-29 11:24:35,484 - root - INFO - Scraping URL 2/5: https://www.aliexpress.com/item/1005002956352981.html
+2025-08-29 11:24:35,486 - root - WARNING - No scraper found for URL: https://www.aliexpress.com/item/1005002956352981.html
+2025-08-29 11:24:36,987 - root - INFO - Scraping URL 3/5: https://www.ebay.com/itm/284003579041
+2025-08-29 11:24:36,987 - root - WARNING - No scraper found for URL: https://www.ebay.com/itm/284003579041
+2025-08-29 11:24:38,488 - root - INFO - Scraping URL 4/5: https://www.etsy.com/listing/123456789/example-product
+2025-08-29 11:24:38,488 - root - WARNING - No scraper found for URL: https://www.etsy.com/listing/123456789/example-product
+2025-08-29 11:24:39,989 - root - INFO - Scraping URL 5/5: https://www.jumia.com.ng/samsung-galaxy-a54-6.4-128gb-awesome-black-187473748.html
+2025-08-29 11:24:39,989 - root - WARNING - No scraper found for URL: https://www.jumia.com.ng/samsung-galaxy-a54-6.4-128gb-awesome-black-187473748.html
+2025-08-29 11:24:39,991 - root - INFO - JSON output written to data/output.json
+2025-08-29 11:24:40,003 - root - INFO - CSV output written to data/output.csv
+2025-08-29 11:24:40,447 - root - INFO - Excel output written to data/output.xlsx
+2025-08-29 11:24:40,447 - root - INFO - Scraping completed. Successful: 1/5
